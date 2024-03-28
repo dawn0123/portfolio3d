@@ -20,6 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import django from './tech/django.png'
+import flask from './tech/flask.png'
+import python from './tech/python.png'
+import pytorch from './tech/pytorch.png'
+import tensorflow from './tech/tensorflow.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +34,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ner from "./NER.png"
+import stockchartanalysis from "./StockChartAnalysis.png"
+import spaceillusorr from "./SpaceIllusorr.png"
+
 
 export {
   logo,
@@ -52,6 +61,11 @@ export {
   tailwind,
   typescript,
   threejs,
+  django,
+  flask,
+  python,
+  pytorch,
+  tensorflow,
   meta,
   shopify,
   starbucks,
@@ -59,4 +73,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  ner,
+  stockchartanalysis,
+  spaceillusorr
 };

@@ -23,7 +23,12 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  docker,  
+  django,
+  flask,
+  python,
+  pytorch,
+  tensorflow,
   meta,
   starbucks,
   tesla,
@@ -32,6 +37,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  ner,
+  stockchartanalysis,
+  spaceillusorr
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -51,47 +59,43 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "AI Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Data Scientist",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Django",
+    icon: django,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Flask",
+    icon: flask,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "PyTorch",
+    icon: pytorch,
+  },
+  {
+    name: "Tensorflow",
+    icon: tensorflow,
   },
   {
     name: "TypeScript",
     icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -125,63 +129,50 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Full Stack Developer",
+    companyName: "RRC Networks Oy",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2017 - June 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Acquired expertise in the React library and participated in its implementation within the development team.",
+      "Utilized a NoSQL database to store and retrieve large datasets efficiently.",
+      "Created a RESTful API that allowed for seamless integration with other applications.",
+      "Shipped 10s of 1000s of lines of code to various development teams after thoroughly testing, debugging, and verifying its functionality.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Data Scientist",
+    companyName: "Tekne Capital Management, LLC",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2020 - Mar 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and implemented machine learning models using Python and TensorFlow to solve complex business problems.",
+      "Collaborated with cross-functional teams to design and deploy AI-driven solutions, resulting in improved efficiency and customer satisfaction.",
+      "Conducted data analysis and preprocessing to extract meaningful insights from large datasets, enabling informed decision-making.",
+      "Integrated AI capabilities into existing systems, optimizing performance and enhancing user experiences.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "AI Engineer",
+    companyName: "Nokia Corporation",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2022 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built recommendation systems using Python and scikit-learn, resulting in a significant increase in customer engagement and sales.",
+      "Implemented natural language processing techiques to develop chatbot applications, improving customer support services.",
+      "Conducted research and experimented with deep learning architectures, archieving state-of-the-art performance on various tasks.",
+      "Collaborated with data scientists and software engineers to develop end-to-end AI solutions for real-world applications.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to do it, but Marko proved me wrong with his AI skills.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -189,7 +180,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Marko does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -197,7 +188,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Marko optimized our business, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -207,66 +198,66 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "NER",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Financial Statement Auto-tagging project using Named Entity Recognition and other Natural Language Processing techniques.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PyTorch",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Django",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: ner,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Stock Chart",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Automatically scrape stock price data, predict and generate stock charts using predictive analytics techniques ",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tensorflow",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: stockchartanalysis,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Space Illusorr",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Metaverse project using Mozilla Hubs 3D scenes and models to look around the virtual world and meet friends.",
     tags: [
       {
-        name: "nextjs",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ReactJS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ThreeJS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: spaceillusorr,
     sourceCodeLink: "https://github.com/",
   },
 ];

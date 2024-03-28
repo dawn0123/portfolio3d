@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Marko Frei — 3D Portfolio",
+    fullName: "Marko Frei",
+    email: "markofrei074@mail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Marko Frei",
+    p: ["I leverage cutting-edge technologies", "to develop intelligent systems"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `AI Engineer with a passion for leveraging cutting-edge technologies to develop intelligent systems. Comprehensive skills in Python programming. Expertise in AI projects including machine learning, natural language processing, computer vision, predictive analysis, generative AI and reinforcement learning. Proficiency in mathematics and algorithms. A problem-solving mindset and a results-oriented approach to every project.`,
     },
     experience: {
       p: "What I have done so far",
@@ -85,8 +81,7 @@ export const config: TConfig = {
       p: "My work",
       h2: "Projects.",
       content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
+    real-world examples of my work. Each project is briefly described. It reflects my
     ability to solve complex problems, work with different technologies,
     and manage projects effectively.`,
     },
