@@ -17,7 +17,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,  
+  docker,
   django,
   flask,
   python,
@@ -119,11 +119,11 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "Full Stack Developer",
-    companyName: "RRC Networks Oy",
+    title: "Senior AI Software Engineer",
+    companyName: "Tekne Capital Management, LLC",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "January 2017 - June 2019",
+    date: "April 2023 - April 2024",
     points: [
       "Acquired expertise in the React library and participated in its implementation within the development team.",
       "Utilized a NoSQL database to store and retrieve large datasets efficiently.",
@@ -132,11 +132,11 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Data Scientist",
-    companyName: "Tekne Capital Management, LLC",
+    title: "AI Software Engineer",
+    companyName: "Scale AI",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "July 2020 - Mar 2022",
+    date: "March 2019 - November 2022",
     points: [
       "Developed and implemented machine learning models using Python and TensorFlow to solve complex business problems.",
       "Collaborated with cross-functional teams to design and deploy AI-driven solutions, resulting in improved efficiency and customer satisfaction.",
@@ -145,11 +145,11 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "AI Engineer",
-    companyName: "Nokia Corporation",
+    title: "Data Scientist",
+    companyName: "OpenAI",
     icon: shopify,
     iconBg: "#383E56",
-    date: "May 2022 - July 2023",
+    date: "January 2016 - October 2018",
     points: [
       "Built recommendation systems using Python and scikit-learn, resulting in a significant increase in customer engagement and sales.",
       "Implemented natural language processing techiques to develop chatbot applications, improving customer support services.",
@@ -162,7 +162,7 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to do it, but Marko proved me wrong with his AI skills.",
+      "I thought it was impossible to do it, but Jamshet proved me wrong with his AI skills.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -170,7 +170,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Marko does.",
+      "I've never met a web developer who truly cares about their clients' success like Jamshet does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -178,7 +178,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Marko optimized our business, our traffic increased by 50%. We can't thank them enough!",
+      "After Jamshet optimized our business, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
