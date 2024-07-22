@@ -17,7 +17,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,  
+  docker,
   django,
   flask,
   python,
@@ -119,42 +119,42 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "Full Stack Developer",
-    companyName: "RRC Networks Oy",
+    title: "AI Software Developer",
+    companyName: "IWROBOT X SoftWare co.",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "January 2017 - June 2019",
+    date: "July 2020 - April 2024",
     points: [
-      "Acquired expertise in the React library and participated in its implementation within the development team.",
-      "Utilized a NoSQL database to store and retrieve large datasets efficiently.",
-      "Created a RESTful API that allowed for seamless integration with other applications.",
-      "Shipped 10s of 1000s of lines of code to various development teams after thoroughly testing, debugging, and verifying its functionality.",
+      "Led a team of data scientists and engineers in developing predictive analytics ML models to analyze market data and investor behavior in order to forecast the performance of financial assets.",
+      "Developed an LLM-powered NLP financial statement automation system by conducting AI model training for sentiment analysis and text classification leading to a 20% increase in consumer’s satisfaction",
+      "Implemented a Retrieval-Augmented Generation (RAG) system to automate the extraction and analysis of financial statements, enhancing accuracy and efficiency by leveraging advanced NLP techniques",
+      "Architect and optimize NLP pipelines using Python, TensorFlow, PyTorch, and Hugging Face Transformers",
     ],
   },
   {
-    title: "Data Scientist",
-    companyName: "Tekne Capital Management, LLC",
+    title: "AI Software Developer",
+    companyName: "Freelancer.com",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "July 2020 - Mar 2022",
+    date: "February 2017 - January 2019",
     points: [
-      "Developed and implemented machine learning models using Python and TensorFlow to solve complex business problems.",
-      "Collaborated with cross-functional teams to design and deploy AI-driven solutions, resulting in improved efficiency and customer satisfaction.",
-      "Conducted data analysis and preprocessing to extract meaningful insights from large datasets, enabling informed decision-making.",
-      "Integrated AI capabilities into existing systems, optimizing performance and enhancing user experiences.",
+      "Used NLP to develop LLM-powered chatbots by training them on large medical knowledge databases to help patients find information about symptoms, conditions, medications, and treatment options",
+      "Used GenAI to develop an NLP Clinical Documentation Assistance system to help healthcare professionals generate accurate and comprehensive clinical notes, reducing the time and effort required for documentation",
+      "Developed and optimized speech recognition and text-to-speech components for a voice-enabled virtual assistant, achieving a 90% accuracy rate and low latency",
+      "Developed and improved computer vision algorithms for various applications, including gesture recognition, 3D reconstruction, and video surveillance",
     ],
   },
   {
-    title: "AI Engineer",
-    companyName: "Nokia Corporation",
+    title: "AI Software Engineer",
+    companyName: "Bidu",
     icon: shopify,
     iconBg: "#383E56",
-    date: "May 2022 - July 2023",
+    date: "October 2015 - February 2017",
     points: [
-      "Built recommendation systems using Python and scikit-learn, resulting in a significant increase in customer engagement and sales.",
-      "Implemented natural language processing techiques to develop chatbot applications, improving customer support services.",
-      "Conducted research and experimented with deep learning architectures, archieving state-of-the-art performance on various tasks.",
-      "Collaborated with data scientists and software engineers to develop end-to-end AI solutions for real-world applications.",
+      "Built a ML healthcare monitoring system to identify unusual patterns in patient vital signs to detect early signs of medical conditions and architected scalable AI models supporting AI-based applications, handling over 100 million requests per day, resulting in improved system performance",
+      "Developed and optimized natural language processing models for a conversational AI assistant, deployed on AWS Lambda and Amazon Lex, delivering a 30% increase in user engagement",
+      "Implemented and fine-tuned GANs and VAEs, achieving significant improvements in model performance and output quality",
+      "Developed intuitive user interfaces for AI-powered applications using React and Angular, resulting in a 40% increase in user engagement and satisfaction",
     ],
   }
 ];
@@ -162,7 +162,7 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to do it, but Marko proved me wrong with his AI skills.",
+      "I thought it was impossible to do it, but Nichole proved me wrong with his AI skills.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -170,7 +170,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Marko does.",
+      "I've never met a web developer who truly cares about their clients' success like Nichole does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -178,7 +178,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Marko optimized our business, our traffic increased by 50%. We can't thank them enough!",
+      "After Nichole optimized our business, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
